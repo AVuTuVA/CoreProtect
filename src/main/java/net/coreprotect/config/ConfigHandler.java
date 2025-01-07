@@ -41,7 +41,7 @@ import oshi.hardware.CentralProcessor;
 public class ConfigHandler extends Queue {
     public static int SERVER_VERSION = 0;
     public static final int EDITION_VERSION = 2;
-    public static final String EDITION_BRANCH = Util.getBranch();
+    public static final String EDITION_BRANCH = "development";
     public static final String EDITION_NAME = Util.getPluginName();
     public static final String COMMUNITY_EDITION = "Community Edition";
     public static final String JAVA_VERSION = "11.0";
